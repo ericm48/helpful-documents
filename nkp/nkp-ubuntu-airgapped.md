@@ -1,5 +1,9 @@
 # NKP [ 2.16.1 ] Ubuntu Air-gapped Install
 
+Change Log:
+- 23-Jan-2026: 
+  - Added 2.16.1 Updates.
+
 ### Upload the NKP Rocky or Ubuntu image to Prism Central
 
 ### Install NKP CLI
