@@ -88,7 +88,7 @@ sudo systemctl start docker.socket
 sudo systemctl start containerd.service
 ```
 
-### Install kubectl
+### Install Kubectl
 
 Download:
 ```
@@ -104,7 +104,7 @@ Check Version:
 ```
 kubectl version --client
 ```
-### Install kind cli
+### Install Kind cli
 
 Download:
 ```
@@ -116,7 +116,7 @@ Set Permissions:
 sudo chmod +x /usr/local/bin/kind
 ```
 
-Generate ssh key:
+### Generate ssh key:
 ```
 ssh-keygen
 ```
@@ -131,6 +131,11 @@ cd nkp-v2.16.1/
 Load bootstrap image:
 ```
 docker load -i konvoy-bootstrap-image-v2.16.1.tar
+```
+
+Verify it exists:
+```
+docker images
 ```
 
 Export Variables:
